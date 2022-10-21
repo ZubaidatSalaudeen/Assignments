@@ -1,81 +1,41 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width">
-        <link rel="stylesheet" href="portfolio.css">
-        <title>Portfolio</title>
+        <title>3 Column Flexbox</title>
+        <link rel="stylesheet" href="style.css ">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lexend Deca">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Big Shoulders Display">
     </head>
     <body>
-        <header>
-            <nav>
-                <a href="index.html">Home</a>
-                <a href="#about">About me</a>
-                <a href="#services">Services</a>
-                <a href="#projects">Projects</a> 
-            </nav>
-        </header>
-        <main>
-            <section class="container">
-                <div class="portfolio" id="portfolio">
-                    <h1>Zubaidat Salaudeen</h1>
-                    <p>Web developer</p>
-                    <button><a href="index.html">Portfolio</a></button>
-                    <button id="contact"><a href="contact.html" target="_blank">Contact me</a></button>
-                </div>
-                <div class="portfolio">
-                    <img src="https://drive.google.com/uc?export=view&id=1r3zc8OQnhTBb_4T2nT0qyajFc7ce5Z0t">
-                </div>
-            </section>
-            <section class="container">
-                <div class="about">
-                    <h2>About me</h2>
-                </div>
-                <div id="about" class="about">
-                    <p>I'm a software engineering trainee with ALX, 
-                        full-stack web development trainee with Zuri 
-                        and a final year undergraduate chemist.
-                        <br> I am proficient in git and github, C programming language, python, html and css.
-                        <br> I love to code. 
-                        <br>When im not coding, then I'm reating, sewing, praying or sleeping.
-                        <br> I'm also a professional fashion designer.
-                    </p>
-                </div>
-            </section>
-            <section class="container">
-                <div>
-                    <h2 class="projects">Projects</h2>
-                </div>>
-                <div id="projects" class="projects">
-                    <ul>
-                        <li>simple tribute page</li>
-                        <li>portfolio</li>
-                        <li>Registration portal</li>
-                        <li>monty</li>
-                        <li>simple shell</li>
-                        <li>...</li>
-                    </ul>
-                </div>
-            </section>
-            <section id="services" class="container">
-                <div>
-                    <h2 class="services">Services</h2>
-                </div>
-                <div class="sectionCont">
-                    <div class="sec">
-                        <h3>Front end development</h3>
-                        <p>Well structured and attractive web page that suits your standards</p>
-                    </div>
-                    <div class="sec">
-                        <h3>Back end web development</h3>
-                        <p>Maintain core databases
-                            <br>Manage API's
-                            <br>Test and debug back end processes
-                        </p>
-                    </div>
-                </div>
-            </section>
-        </main>
-        <footer><small>Zubby</small> 2022</footer>
+        <div class="container">
+            <div class="flexbox item1">
+                <img src="Copy of icon-sedans.svg">
+                <h1>SEDANS</h1>
+                <p>Choose a sedan for its affordability and excellent
+                    fuel economy. Ideal for cruising in the city or on
+                    your next road trip.
+                </p>
+                <button class="btn btn1">Learn more</button>
+            </div>
+            <div class="flexbox item2">
+                <img src="Copy of icon-suvs.svg">
+                <h1>SUVS</h1>
+                <p>Take an SUV for its spacious interior, power, and versatility.
+                    Perfect for your next family vacation and off-road adventures.
+                </p>
+                <button class="btn btn2">Learn more</button>
+            </div>
+            <div class="flexbox item3">
+                <img src="Copy of icon-luxury.svg">
+                <h1>LUXURY</h1>
+                <p>Cruise in the best car brands without the bloated prices.
+                    Enjoy the enhanced comfort of a luxury rental and arrive in style.
+                </p>
+                <button class="btn btn3">Learn more</button>
+            </div>
+        </div>
+        <a href="grid.html">Click here for grid</a>
     </body>
 </html>
