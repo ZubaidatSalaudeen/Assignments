@@ -1,0 +1,95 @@
+body {
+    background-color: black;
+    color: white;
+}
+nav {
+     top: 0; float: right;
+}
+nav > a {
+    text-decoration: none; color: white; padding: 2vw; font-size: 12px; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+nav > a:hover, nav > a:active {
+    text-decoration: none; color: rgb(78, 53, 36);
+}
+.container {
+    width: 100%; height: auto; display: inline-block;
+}
+.sectionCont {
+    width: 50%; height: auto; display: inline-block;
+}
+.portfolio, .projects {
+    width: 50%; height: 100%; 
+    float: left; position: relative; text-align: center;
+}
+#portfolio {
+    width: 50%; position: relative; margin-top: 10%;
+}
+h1 {
+    font-size: 5vw;
+}
+p, ul {
+  font-size: 2vw;
+}
+
+#portfolio > p {
+    font-size: 2vw;
+} 
+img {
+    width: 100%;
+    height: auto;
+}
+button {
+    padding: 1vw 2vw; margin: 1vw; border-radius: 3vw; font-size: 1.2vw;
+}
+button > a:link, button > a:visited{
+    text-decoration: none; color: rgb(78, 53, 36)
+}
+button > a:hover, button > a:active {
+    text-decoration: none; background-color: rgb(78, 53, 36); color: white;
+}
+.about, .services {
+    width: 50%; height: 100%; float: right; position: relative;
+    text-align: center; margin: 7% auto;
+}
+h2, h3 {
+    color: wheat;
+}
+#about, #projects {
+  outline: 2px solid wheat;
+    background-color: gray;
+    border-radius: 15px;
+    align-items: center;
+    max-width: 600px;
+    float: inline;
+}
+.sec {
+    width: 30%;
+    margin: 7%;
+    margin-top: 10%;
+    padding: 5px;
+    float: left; position: relative; 
+    text-align: center;
+    outline: 2px solid wheat;
+    background-color: gray; 
+    border-radius: 50px;
+}
+footer {
+    text-align: center;
+    margin-top: 50px;
+    border-top: 1px solid white;
+}
+#contact {
+    background-color: gray;
+    border-radius: 50%;
+    width: 25%;
+    padding: 10px;
+    margin-left: 20%;
+    float: left;
+    color: wheat;
+    outline: 2px solid wheat;
+}
+.contact{
+    width: 50%; height: 100%; 
+    float: right; position: relative;
+    text-align: center;  margin-top: 15%; margin-bottom: 15%;
+}
